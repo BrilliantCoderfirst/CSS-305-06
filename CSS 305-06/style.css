@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo img {
+    width: 150px;
+}
+.options {
+    display: flex;
+    flex-direction: row;
+    width: 690px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.options ul {
+    display: flex;
+    flex-direction: row;
+    width: 338px;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+}
+.options ul li {
+    font-size: 17px;
+    color: rgb(131, 131, 131);
+}
+.partition {
+    border-left: 2px solid rgb(122, 122, 122);
+    height: 38px;
+}
+.options p {
+    font-weight: 600;
+    color: rgb(122, 122, 122);
+    font-weight: 600;
+}
+.button button {
+    width: 100px;
+    height: 50px;
+    outline: none;
+    border-radius: 39px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid #0073b0;
+    font-size: 16px;
+    color: #0073b0;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top: 300px;
+    padding-top: 50px;
+}
+.left {
+    padding-left: 229px;
+}
+.firstPara {
+    font-size: 48px;
+    color: #976455;
+}
+.right img {
+    width: 819px;
+}
+.left input {
+    width: 393px;
+    height: 40px;
+    margin: 7px 0px;
+    padding-left: 10px;
+    outline: none;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 2px solid rgb(161, 159, 159);
+    border-bottom: 2px solid rgb(161, 159, 159);
+}
+.firstInput {
+    margin-top: 30px!important;
+}
+.secondPara {
+    padding-top: 20px;
+    color: rgb(95, 93, 93);
+}
+.secondPara span {
+    color: #0073b0;
+}
+.left button {
+    background-color: #0073b0;
+    width: 400px;
+    height: 50px;
+    outline: none;
+    border-radius: 39px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border: 1px solid #0073b0;
+    font-size: 16px;
+    color: white;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.horizontalLine {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 25px;
+}
+.horizontalLine div {
+    width: 194px;
+    height: 4px;
+    border-top: 1px solid black;
+    margin: 0px 21px;
+}
+.firstHorizontal {
+    margin-left: 0px!important;
+}
+.lastPara {
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 62px;
+}
+.lastPara span {
+    color: #0073b0;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
